@@ -1,0 +1,89 @@
+head com nav
+Home
+schedule.
+INGRESSOS
+EXHIBITIONS
+PUBLICAÇÕES
+
+estilos de telas
+estilo 1 resol peq 1 bloco em cima do outro sem imgbg
+estilo 2 resol peqmaior 1 bloco / 2 blocos sem imgbg mas com bgcolor
+estilo 3 resol med 1 bloco / 2 blocos com imgbg
+estilo 4 resol gde 1 bloco / 4 blocos com imgbg
+
+
+TXT inside imgbg estilo 3 e 4 ou inside bgcolor estilo 2 ou fora num bloco separado abaixo nav estilo 1 
+The Museum of Tomorrow is a different kind of science Museum. A space conceived through the values of sustainability and conviviality that explores the ever-changing times we’re witnessing and the possible paths we may take during the next 50 years.
+
+DIV ABOUT 1 block full (PC and Phone)
+About the Museum
+
+A new icon of the modernization of Rio de Janeiro’s harbor, the Museum of Tomorrow was born in the Praça Mauá as a science museum meant to explore, imagine, and conceive all the possibilities for constructing the future. 
+
+An experimental museum, where the content is presented through a narrative that combines the accuracy of science with the expressiveness of art, using technology as a support in interactive environments and audiovisual and gaming facilities created from scientific studies conducted by experts and data released all over the world.
+
+Designed by the Spanish architect Santiago Calatrava, the building - whose organic shapes were inspired by the bromeliads of the Botanic Garden of the city - occupies an area of 15 thousand square meters, surrounded by reflecting pools, gardens, a bike lane, and a leisure area, all adding up to 34.6 thousand square meters of the Píer Mauá.
+
+Museum of Tomorrow is an Applied Sciences museum which explores the opportunities and challenges which humanity will be forced to tackle in the coming decades from the perspective of sustainability and conviviality. Launched December 2015 by Rio de Janeiro City Hall, Museum of Tomorrow is a Culture asset from Rio's Secretary of Culture currently managed by IDG (Instituto de Desenvolvimento e Gestão). Example of a well-succeeded partnership between public power and private initiative, it has already received over three million visitors since opening. With Santander Bank as a Master Sponsor and a wide network of partner sponsors as - Shell, IBM, IRB-Brasil RE, Engie, Grupo Globo and CCR, the museum was originally conceived by Roberto Marinho Foundation.
+
+
+DIV INFO - PC and PHONE 4 blocks
+
+block1 with icon
+Opening hours 
+The Museum of Tomorrow is open from Tuesday to Sundays, from 10 a.m. to 6 p.m.
+The coffee shop and the museum souvenir shop are open during the Museum working hours;
+ 
+block2 with icon
+Tickets 
+Online sales: click here
+Full price: R$ 30;
+​Half price: R$ 15;
+ 
+block3 with icon
+Half price tickets
+Young people from 6 to 21 years old;
+School and university students;
+Disabled people;
+Residents or natives of Rio de Janeiro city;
+Payment with Santander card (only for the cardholder).
+ 
+block4 with icon
+Free Admission
+Necessary caregiver for disabled people
+Children up to 5 years old or senior citizens in their 60s or over 
+Museum employees or members of ICOM with annuity stamp;
+Touristic guides.
+In all cases, you must provide supporting evidence.
+
+ 
+FULL DIV BLOCK 
+
+Address
+Praça Mauá, 1 - Centro. Rio de Janeiro, RJ - Zip Code: 20081-262
+Avoid going by car; the museum doesn’t have a parking lot.
+The nearest subway station is Uruguaiana.
+The closest tram station is Parada dos Museus.
+
+Accessibility
+The museum provides tactile floors and dioramas, ramps, wheelchairs, elevators, baby changers, adapted bathrooms, and universal signs.
+
+Access to the Museum
+
+The Museum has a capacity limit;
+ 
+In order to offer a confortable visit, ensure the safety of the building, and respect its business hours, the Museum shuts the lines early enough to make sure everyone gets in until the box office is closed;
+ 
+The lines may be closed at any hour every day without previous notice;
+ 
+Once the lines are closed, they’re to be reopened only the next working day, 15 minutes before the Museum is open.
+Priority lines *
+
+Disabled people
+People in their 60s or over;
+Children up to 6 years old, along with at most two guardians;
+Pregnant women;
+Lactating women, along with their infant child;
+ICOM (International Council of Museums) associates who present their annual fee stamp.
+ 
+* We allow 1 (one) companion for each person entitled to a priority access.
