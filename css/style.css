@@ -1,0 +1,402 @@
+/*CSS Style presets from font and browser padding and margin reset*/
+@charset "UTF-8";
+@font-face {
+    font-family:'calibri';
+    src: url(/font/calibri.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'candara' ;
+    src: url(/font/candara.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after{
+    font-family: 'candara','calibri', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* this is optional but I prefer it for better user experience */
+}
+
+/*Mobile firt style CSS*/
+
+ul{
+    list-style: none;
+}
+
+.top-logo{
+    font-family: 'calibri', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: .7rem;
+    text-align: center;
+    color: #182e47;
+    font-weight: 300;
+}
+
+.top-logo-tomorrow{
+    font-family: 'calibri', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.top-nav{
+    background-image: linear-gradient(#2A4D8D,#32599A);
+    text-align: center;
+}
+
+.top-nav a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: 1rem;
+    /*border: .01rem solid white;
+    border-radius: 2rem;
+    background-image: linear-gradient(#2A4D8D,#32599A);*/
+}
+
+.top-nav a:hover{
+    background-color: #3C73B4;
+    color: rgb(223, 223, 223);
+}
+
+h1, h2, h3, h4{
+    font-family: 'calibri', Arial, Helvetica, sans-serif;
+}
+
+.main-introbg-play{
+    height: 4.5rem;
+    width: 4.5rem; 
+    display: none;
+    margin-top: 2rem;
+}
+
+.main-introbg-play img{
+    max-height: 100%;
+    max-width: 100%;
+    filter: invert(0%) sepia(8%) saturate(19%) hue-rotate(338deg) brightness(93%) contrast(100%);
+}
+
+.main-introbg, .main-about-1block{
+    padding: 1rem ;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.main-introbg h1, .main-about-1block h2{
+    color: #182e47;
+    font-size: 1.4rem;
+    margin: 1.4rem;
+}
+
+.main-introbg p, .main-about-1block p{
+    color: #36506d;
+    line-height: 1.4;
+}
+
+.link-button{
+    margin: 1rem 0 .5rem;
+    display: inline-block;
+    padding: .75rem 1.8rem;
+    background-color: #2d5b8f;
+    border-radius: .4rem;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.link-button:hover{
+    background-color: #5c86bb;
+    color: #f6f6f6;
+}
+
+.main-card-info{
+    padding: 0 2rem 0;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.main-card-info-icon{
+padding-top: 2rem;
+filter: invert(17%) sepia(12%) saturate(2529%) hue-rotate(172deg) brightness(91%) contrast(96%);
+}
+
+.main-card-info h3{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #182e47;
+    margin: .7rem;
+}
+
+.main-card-info p, .main-card-info ul{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #36506d;
+}
+
+.obs{
+    font-size: .9rem;
+    color: #6180a7;
+    padding: 1rem 0 1rem 0;
+    display: block;
+    
+}
+
+.obs-gray{
+    padding: 2rem;
+    background-color: #f6f6f6;
+    font-size: 1rem; 
+    text-align: center;  
+}
+
+.main-block-info{
+    padding: 2rem;
+}
+.main-block-info-content{
+    margin-bottom: 2rem;
+}
+
+.main-block-info-content h3{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #182e47;
+    margin: .7rem;
+    font-style: normal;
+    letter-spacing: .2rem;
+}
+
+.main-block-info-content p, .main-block-info-content ul{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #36506d;
+    font-style: normal;
+    text-align: left;
+}
+
+.foot{
+    background-color:#c5401fd2;
+    padding-bottom: 2rem ;
+    color: #ccc;
+    text-align: center;
+}
+
+.foot-smedia{
+    background-color:#eb6f5086;
+}
+
+.foot ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foot li{
+    /*display: inline-block;*/
+    margin: 1rem;    
+}
+
+.foot-smediaicon{
+    filter: invert(99%) sepia(4%) saturate(484%) hue-rotate(235deg) brightness(115%) contrast(96%);  
+}
+
+.foot p:nth-child(2){
+    padding: 1rem 0;
+}
+
+/*  Media query for responsive screen 780px=48,75rem  */
+
+@media screen and (min-width:48.75rem){
+    .top{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;        
+    }
+
+    .top-nav{
+        background-image: none;
+    }
+
+    .top-nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top-nav a{
+        color: #182e47;
+        font-weight: 500;
+        text-shadow: 0px 1px 3px #020305;
+    }
+
+    .top-nav a:hover{
+        background-color: #f6f6f6;
+        font-weight: 500;
+        color: #020305;
+    }
+
+   /* .main-introbg{
+        background-image: linear-gradient(#2A4D8D,#32599A);
+        /*background-image: url(../images/bg-marrj.jpg);
+        background-size: cover;
+    }*/
+    
+    .main-introbg{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:end;
+        background-image: url(../images/bg-marrj.jpg);
+        background-position:top right;
+        background-size:cover;
+        padding: 0 4rem;
+    }
+
+    .main-introbg::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(45, 80, 196, 0.452) 
+    } 
+    
+    .main-introbg h1{
+        position: relative;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        
+    }
+
+    .main-introbg p{
+        position: relative;
+        font-size: 1.1rem;
+        text-shadow: 5px 5px 10px rgb(68, 68, 68);        
+    }
+
+    .main-introbg h1, .main-introbg p{
+        color: white;
+    }
+
+    .main-introbg-play{
+        display: block;
+        
+    }
+    
+    .main-card-info {
+        margin: 0;
+        padding: .5em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        width: 100%;
+        flex-wrap: wrap;     
+
+    }
+
+    .card-info{
+        width: 44%;
+        margin:3%;        
+    }
+
+    .card-info p, ul{
+        text-align: center;
+    }
+}
+
+/*  Media query for responsive screen 1000px=62,5rem  */
+
+@media screen and (min-width:62.5rem){
+    .main-introbg{
+        position: relative;
+        height: 30rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:end;
+        background-image: url(../images/bg-marrj.jpg);
+        background-position:bottom right;
+        background-size:auto;
+        padding: 0 5rem;
+    }
+
+    .main-introbg::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(45, 80, 196, 0.452) 
+    } 
+    
+    .main-introbg h1{
+        position: relative;
+        font-size: 2rem;
+        text-transform: uppercase;
+        
+    }
+
+    .main-introbg p{
+        position: relative;
+        font-size: 1.4rem;
+        text-shadow: 5px 5px 10px rgb(68, 68, 68);        
+    }
+
+    .main-about-1block h2{
+        font-size: 1.7rem;
+        
+    }
+
+    .main-about-1block p{
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+
+}
+
+/*  Media query for responsive screen 1024px=64rem  */
+
+@media screen and (min-width:64rem){
+    .main-introbg{
+        background-image: url(../images/mar-rj-bg1600x1280.jpg);
+        background-position:center bottom;
+        background-size:cover;
+        height: 35rem;
+    }
+
+    .card-info{
+        width: 24%;
+        margin: 0;        
+    }
+
+    .main-card-info{
+        
+    }
+
+    .main-block-info{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 5%;
+    }
+
+    .main-block-info-content{
+        width: 45%;
+    }
+
+
+
+
+
+}

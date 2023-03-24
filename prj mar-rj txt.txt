@@ -29,26 +29,26 @@ Museum of Tomorrow is an Applied Sciences museum which explores the opportunitie
 
 DIV INFO - PC and PHONE 4 blocks
 
-block1 with icon
+block1 with icon calendar-clock https://fontawesome.com/icons/calendar-clock?s=solid&f=classic
 Opening hours 
 The Museum of Tomorrow is open from Tuesday to Sundays, from 10 a.m. to 6 p.m.
 The coffee shop and the museum souvenir shop are open during the Museum working hours;
  
-block2 with icon
+block2 with icon ticket https://fontawesome.com/icons/ticket?s=solid&f=sharp
 Tickets 
 Online sales: click here
 Full price: R$ 30;
 ​Half price: R$ 15;
  
 block3 with icon
-Half price tickets
+Half price tickets badge-percent https://fontawesome.com/icons/badge-percent?s=solid&f=sharp
 Young people from 6 to 21 years old;
 School and university students;
 Disabled people;
 Residents or natives of Rio de Janeiro city;
 Payment with Santander card (only for the cardholder).
  
-block4 with icon
+block4 with icon door-open  https://fontawesome.com/icons/door-open?s=solid&f=classic
 Free Admission
 Necessary caregiver for disabled people
 Children up to 5 years old or senior citizens in their 60s or over 
@@ -87,3 +87,10 @@ Lactating women, along with their infant child;
 ICOM (International Council of Museums) associates who present their annual fee stamp.
  
 * We allow 1 (one) companion for each person entitled to a priority access.
+
+
+Sebino Soft Extra Bold WhatFontIs.com
+Calibre Semibold WhatFontIs.com
+Metric Semibold WhatFontIs.com
+
+

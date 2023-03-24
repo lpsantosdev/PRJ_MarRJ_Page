@@ -1,0 +1,124 @@
+<body>
+    <header class="top">
+        <p class="top-logo">Musuem of<span class="top-logo-tomorrow">Tomorrow</span></p>        
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">schedule</a></li>
+                <li><a href="#">tickets</a></li>
+                <li><a href="#">exhibitions</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <!--  estilos de telas
+    estilo 1 resol peq 1 bloco em cima do outro sem imgbg
+    estilo 2 resol peqmaior 1 bloco / 2 blocos sem imgbg mas com bgcolor
+    estilo 3 resol med 1 bloco / 2 blocos com imgbg
+    estilo 4 resol gde 1 bloco / 4 blocos com imgbg
+TXT inside imgbg estilo 3 e 4 ou inside bgcolor estilo 2 ou fora num bloco separado abaixo nav estilo 1-->
+        <section class="main-introbg">
+            <h1>A different kind of science Museum</h1>
+            <p>The Museum of Tomorrow is a space conceived through the values of sustainability and conviviality that
+                explores the ever-changing times we are witnessing and the possible paths we may take during the next 50
+                years.</p>
+            <a href="#">See more</a>
+        </section>
+        <section class="main-about-1block">
+            <article><!--DIV ABOUT 1 block full (PC and Phone)-->
+                <h2>About the Museum</h2>
+                <p> The Museum of Tomorrow is an Applied Sciences museum which explores the opportunities and challenges
+                    which humanity will be forced to tackle in the coming decades from the perspective of sustainability
+                    and conviviality. Launched December 2015 by Rio de Janeiro City Hall, Museum of Tomorrow is a
+                    Culture asset from Rio's Secretary of Culture and it is a new icon of the modernization of Rio de
+                    Janeiro’s harbor, the Museum of Tomorrow was born in the Praça Mauá as a science museum meant to
+                    explore,
+                    imagine, and conceive all the possibilities for constructing the future. An experimental museum,
+                    where the content is presented through a narrative that combines the accuracy of science with the
+                    expressiveness of art, using technology as a support in interactive environments and audiovisual and
+                    gaming facilities created from scientific studies
+                    conducted by experts and data released all over the world.</p>
+                <p>Designed by the Spanish architect Santiago Calatrava, the building - whose organic shapes were
+                    inspired by the bromeliads of the Botanic Garden of the city - occupies an area of 15 thousand
+                    square meters, surrounded by reflecting pools, gardens, a bike lane, and a leisure area, all adding
+                    up to 34.6 thousand square meters of the Píer Mauá.</p>
+                <p>
+                </p>
+            </article>
+
+        </section>
+        <section class="main-card-info"><!--INFO - PC and PHONE 4 blocks-->
+            <h3>Opening hours</h3>
+            <!--block1 with icon calendar-clock https://fontawesome.com/icons/calendar-clock?s=solid&f=classic-->
+            <p>The Museum of Tomorrow is open from Tuesday to Sundays, from 10 a.m. to 6 p.m. The coffee shop and the
+                museum souvenir shop are open during the Museum working hours;</p>
+            <h3>Tickets</h3><!--block2 with icon ticket https://fontawesome.com/icons/ticket?s=solid&f=sharp-->
+            <p>Online sales: </p>
+            <ul>
+                <li>Full price: R$ 30.</li>
+                <li>Half price: R$ 15.</li>
+            </ul>
+            <h3>Half price tickets</h3>
+            <!--block3 with icon badge-percent https://fontawesome.com/icons/badge-percent?s=solid&f=sharp-->
+            <ul>
+                <li>Young people from 6 to 21 years old.</li>
+                <li>School and university students.</li>
+                <li>Disabled people.</li>
+                <li>Residents or natives of Rio de Janeiro city.</li>
+                <li>Payment with Santander card (only for the cardholder).</li>
+            </ul>
+            <h3>Free Admission</h3>
+            <!--block4 with icon door-open https://fontawesome.com/icons/door-open?s=solid&f=classic-->
+            <ul>
+                <li>Necessary caregiver for disabled people.</li>
+                <li>Children up to 5 years old or senior citizens in their 60s or over.</li>
+                <li>Museum employees or members of ICOM with annuity stamp.</li>
+                <li>Touristic guides.</li>
+            </ul>
+            <p>*In all cases, you must provide supporting evidence.</p>
+        </section>
+        <section class="main-block-info"><!--1block-->
+            <address>
+                <h4>Address</h4>
+                <p>Praça Mauá, 1 - Centro. Rio de Janeiro, RJ - Zip Code: 20081-262
+                    Avoid going by car; the museum doesn’t have a parking lot.
+                    The nearest subway station is Uruguaiana.
+                    The closest tram station is Parada dos Museus.</p>
+            </address>
+            <h4>Accessibility</h4>
+            <p>The museum provides tactile floors and dioramas, ramps, wheelchairs, elevators, baby changers, adapted
+                bathrooms, and universal signs.</p>
+            <h4>Access to the Museum</h4>
+
+            <p>
+                The Museum has a capacity limit;
+                In order to offer a confortable visit, ensure the safety of the building, and respect its business
+                hours, the Museum shuts the lines early enough to make sure everyone gets in until the box office is
+                closed;
+                The lines may be closed at any hour every day without previous notice;
+                Once the lines are closed, they are to be reopened only the next working day, 15 minutes before the
+                Museum is open.
+                Priority lines *
+                Disabled people
+                People in their 60s or over;
+                Children up to 6 years old, along with at most two guardians;
+                Pregnant women;
+                Lactating women, along with their infant child;
+                ICOM (International Council of Museums) associates who present their annual fee stamp.
+                * We allow 1 (one) companion for each person entitled to a priority access.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/museudoamanha" target="_blank" rel="Facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/museudoamanha" target="_blank" rel="Twitter">Twitter</a></li>
+            <li><a href="https://www.instagram.com/museudoamanha" target="_blank" rel="Instagram">Instagram</a></li>
+            <li><a href="https://www.youtube.com/museudoamanha" target="_blank" rel="Youtube">Youtube</a></li>
+        </ul>
+        <p>Copyright &copy; Musuem of Tomorrow 2023</p>
+        <p>Museum of Tomorrow is a Culture asset from Rio's Secretary of Culture currently managed by IDG (Institute for
+            Development and Management). A well-succeeded partnership between public power and private initiative</p>
+    </footer>
+</body>
